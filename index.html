@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yatri Sathi | Bhutan Tours</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+.hero-slide{
+height:100vh;
+background-size:cover;
+background-position:center;
+position:relative;
+}
+
+.hero-slide::before{
+content:'';
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.55);
+}
+
+.hero-content{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+z-index:10;
+color:white;
+width:90%;
+}
+
+.hero-content h1{
+font-size:70px;
+font-weight:800;
+}
+
+.hero-content p{
+font-size:22px;
+margin-top:20px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:40px;
+}
+
+}
+.gallery-img{
+width:100%;
+height:320px;
+object-fit:cover;
+transition:.5s;
+display:block;
+}
+
+.gallery-img:hover{
+transform:scale(1.08);
+}
+
+.destination-item{
+transition:.4s;
+}
+
+.filter-btn{
+transition:.3s;
+}
+
+.filter-btn:hover{
+transform:translateY(-3px);
+}
+
+</style>
+
+</head>
+
+<body class="bg-slate-50">
+
+<!-- NAVBAR -->
+
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="flex justify-between items-center h-20">
+
+<a href="#" class="text-3xl font-bold text-cyan-600">
+Yatri Sathi
+</a>
+
+<ul class="hidden lg:flex gap-8 font-medium">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="menuBtn" class="lg:hidden text-3xl">
+<i class="fas fa-bars"></i>
+</button>
+
+</div>
+
+<div id="mobileMenu" class="hidden pb-5">
+
+<a href="#home" class="block py-2">Home</a>
+<a href="#about" class="block py-2">About</a>
+<a href="#packages" class="block py-2">Packages</a>
+<a href="#gallery" class="block py-2">Gallery</a>
+<a href="#contact" class="block py-2">Contact</a>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="home">
+
+<div class="swiper heroSwiper">
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide hero-slide"
+style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee')">
+
+<div class="hero-content">
+
+<h1>Discover Bhutan</h1>
+
+<p>
+Explore the Land of the Thunder Dragon
+</p>
+
+<a href="#packages"
+class="inline-block mt-8 bg-cyan-500 px-8 py-4 rounded-full">
+
+View Packages
+
+</a>
+
+</div>
+
+</div>
+
+<div class="swiper-slide hero-slide"
+style="background-image:url('https://images.unsplash.com/photo-1469474968028-56623f02e42e')">
+
+<div class="hero-content">
+
+<h1>Travel With Confidence</h1>
+
+<p>
+Curated Tours & Premium Experiences
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+<!-- SEARCH BOX -->
+
+<section class="-mt-16 relative z-20">
+
+<div class="max-w-6xl mx-auto px-5">
+
+<div class="bg-white rounded-3xl shadow-2xl p-8">
+
+<div class="grid lg:grid-cols-4 gap-4">
+
+<input type="text"
+placeholder="Destination"
+class="border p-4 rounded-xl">
+
+<input type="date"
+class="border p-4 rounded-xl">
+
+<select class="border p-4 rounded-xl">
+
+<option>Travel Type</option>
+<option>Adventure</option>
+<option>Family</option>
+<option>Honeymoon</option>
+
+</select>
+
+<button
+class="bg-cyan-500 text-white rounded-xl">
+
+Search Tours
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ABOUT BHUTAN SECTION -->
+
+<section id="about" class="py-24 bg-white">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<span class="text-cyan-500 uppercase tracking-widest font-semibold">
+About Bhutan Tours
+</span>
+
+<h2 class="text-5xl font-bold mt-4">
+Discover The Land Of The Thunder Dragon
+</h2>
+
+<p class="text-gray-500 mt-4 max-w-3xl mx-auto">
+Experience Bhutan with YourTripPlanner through carefully crafted journeys, premium accommodations and unforgettable adventures.
+</p>
+
+</div>
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+
+<!-- IMAGE -->
+
+<div>
+
+<img
+src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+alt="Bhutan"
+class="rounded-3xl shadow-2xl w-full h-[650px] object-cover">
+
+</div>
+
+<!-- CONTENT -->
+
+<div>
+
+<h3 class="text-3xl font-bold mb-6 text-slate-900">
+Bhutan Tour Packages
+</h3>
+
+<p class="text-gray-600 leading-8 mb-6">
+Embark on a mesmerizing journey through the enchanting realm of Bhutan with our meticulously crafted tour packages. Explore ancient monasteries, vibrant culture, breathtaking valleys and the unique traditions that make Bhutan one of the world's most fascinating destinations.
+</p>
+
+<h3 class="text-3xl font-bold mb-6 text-slate-900">
+Your Trusted Travel Agency
+</h3>
+
+<p class="text-gray-600 leading-8 mb-6">
+YourTripPlanner proudly stands as a trusted travel agency dedicated to creating seamless and memorable experiences. Our expert team carefully plans every aspect of your journey including accommodations, transportation, permits and sightseeing.
+</p>
+
+<h3 class="text-3xl font-bold mb-6 text-slate-900">
+Premier Bhutan Tour Operator
+</h3>
+
+<p class="text-gray-600 leading-8">
+As a leading Bhutan tour operator, we design customized itineraries that showcase the best of Paro, Thimphu, Punakha and beyond. Whether you're looking for adventure, culture, family vacations or honeymoon experiences, we ensure every trip becomes a lifetime memory.
+</p>
+
+<div class="mt-10 flex flex-wrap gap-4">
+
+<a href="#packages"
+class="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-4 rounded-full font-semibold">
+
+Explore Packages
+
+</a>
+
+<a href="#contact"
+class="border-2 border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-white px-8 py-4 rounded-full font-semibold">
+
+Contact Us
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+```
+
+
+<!-- STATS -->
+
+<section class="py-20 bg-cyan-600 text-white">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid md:grid-cols-4 gap-10 text-center">
+
+<div>
+<h2 class="text-5xl font-bold">500+</h2>
+<p class="mt-3">Tours Completed</p>
+</div>
+
+<div>
+<h2 class="text-5xl font-bold">10K+</h2>
+<p class="mt-3">Happy Travelers</p>
+</div>
+
+<div>
+<h2 class="text-5xl font-bold">120+</h2>
+<p class="mt-3">Destinations</p>
+</div>
+
+<div>
+<h2 class="text-5xl font-bold">24/7</h2>
+<p class="mt-3">Support</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- WHY CHOOSE US -->
+
+<section class="py-24 bg-slate-900 text-white">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<h2 class="text-5xl font-bold">
+Why Choose Yatri Sathi
+</h2>
+
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+<div class="text-center">
+
+<i class="fas fa-plane text-5xl text-cyan-400 mb-5"></i>
+
+<h3 class="text-xl font-bold">
+Premium Tours
+</h3>
+
+<p class="mt-3 text-slate-300">
+Carefully designed itineraries.
+</p>
+
+</div>
+
+<div class="text-center">
+
+<i class="fas fa-users text-5xl text-cyan-400 mb-5"></i>
+
+<h3 class="text-xl font-bold">
+Expert Team
+</h3>
+
+<p class="mt-3 text-slate-300">
+Experienced travel specialists.
+</p>
+
+</div>
+
+<div class="text-center">
+
+<i class="fas fa-headset text-5xl text-cyan-400 mb-5"></i>
+
+<h3 class="text-xl font-bold">
+24/7 Support
+</h3>
+
+<p class="mt-3 text-slate-300">
+Always available to help.
+</p>
+
+</div>
+
+<div class="text-center">
+
+<i class="fas fa-award text-5xl text-cyan-400 mb-5"></i>
+
+<h3 class="text-xl font-bold">
+Best Price
+</h3>
+
+<p class="mt-3 text-slate-300">
+Affordable premium experiences.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- TOUR PACKAGES -->
+
+<section id="packages" class="py-24 bg-slate-50">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<span class="text-cyan-500 uppercase tracking-widest">
+Tour Packages
+</span>
+
+<h2 class="text-5xl font-bold mt-4">
+Popular Travel Packages
+</h2>
+
+<p class="text-gray-500 mt-4">
+Choose from our best-selling travel experiences.
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+<!-- PACKAGE 1 -->
+
+<div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+class="h-64 w-full object-cover">
+
+<div class="p-6">
+
+<span class="bg-cyan-100 text-cyan-700 px-3 py-1 rounded-full text-sm">
+Best Seller
+</span>
+
+<h3 class="text-2xl font-bold mt-4">
+Bhutan Premium Tour
+</h3>
+
+<p class="text-gray-500 mt-3">
+5 Nights / 6 Days
+</p>
+
+<div class="mt-4 text-yellow-400">
+★★★★★
+</div>
+
+<h4 class="text-3xl font-bold text-cyan-600 mt-4">
+₹24,999
+</h4>
+
+<button class="w-full mt-6 bg-cyan-500 text-white py-3 rounded-xl">
+Book Now
+</button>
+
+</div>
+
+</div>
+
+<!-- PACKAGE 2 -->
+
+<div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+class="h-64 w-full object-cover">
+
+<div class="p-6">
+
+<span class="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm">
+Honeymoon
+</span>
+
+<h3 class="text-2xl font-bold mt-4">
+Bhutan Honeymoon Tour
+</h3>
+
+<p class="text-gray-500 mt-3">
+6 Nights / 7 Days
+</p>
+
+<div class="mt-4 text-yellow-400">
+★★★★★
+</div>
+
+<h4 class="text-3xl font-bold text-cyan-600 mt-4">
+₹29,999
+</h4>
+
+<button class="w-full mt-6 bg-cyan-500 text-white py-3 rounded-xl">
+Book Now
+</button>
+
+</div>
+
+</div>
+
+<!-- PACKAGE 3 -->
+
+<div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+class="h-64 w-full object-cover">
+
+<div class="p-6">
+
+<span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+Adventure
+</span>
+
+<h3 class="text-2xl font-bold mt-4">
+Sikkim Explorer
+</h3>
+
+<p class="text-gray-500 mt-3">
+4 Nights / 5 Days
+</p>
+
+<div class="mt-4 text-yellow-400">
+★★★★★
+</div>
+
+<h4 class="text-3xl font-bold text-cyan-600 mt-4">
+₹17,999
+</h4>
+
+<button class="w-full mt-6 bg-cyan-500 text-white py-3 rounded-xl">
+Book Now
+</button>
+
+</div>
+
+</div>
+
+<!-- PACKAGE 4 -->
+
+<div class="bg-white rounded-3xl overflow-hidden shadow-xl hover:-translate-y-3 duration-300">
+
+<img
+src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+class="h-64 w-full object-cover">
+
+<div class="p-6">
+
+<span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm">
+Popular
+</span>
+
+<h3 class="text-2xl font-bold mt-4">
+Meghalaya Adventure
+</h3>
+
+<p class="text-gray-500 mt-3">
+5 Nights / 6 Days
+</p>
+
+<div class="mt-4 text-yellow-400">
+★★★★★
+</div>
+
+<h4 class="text-3xl font-bold text-cyan-600 mt-4">
+₹19,999
+</h4>
+
+<button class="w-full mt-6 bg-cyan-500 text-white py-3 rounded-xl">
+Book Now
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SPECIAL OFFER -->
+
+<section class="py-20 bg-gradient-to-r from-cyan-600 to-blue-700 text-white">
+
+<div class="max-w-6xl mx-auto px-6 text-center">
+
+<h2 class="text-5xl font-bold">
+Book A Package & Avail Exclusive Offers
+</h2>
+
+<p class="mt-6 text-xl">
+
+✔ Early Bird Discounts <br>
+✔ Free Travel Consultation <br>
+✔ Premium Hotels <br>
+✔ Private Transportation <br>
+✔ 24/7 Travel Support
+
+</p>
+
+<a href="#contact"
+class="inline-block mt-8 bg-white text-cyan-700 px-8 py-4 rounded-full font-bold">
+
+Get Offer Now
+
+</a>
+
+</div>
+
+</section>
+
+<!-- PARALLAX SECTION -->
+
+<section
+class="relative h-[500px] bg-fixed bg-cover bg-center"
+style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470')">
+
+<div class="absolute inset-0 bg-black/60"></div>
+
+<div class="relative h-full flex items-center justify-center text-center">
+
+<div>
+
+<h2 class="text-6xl font-bold text-white">
+Adventure Awaits
+</h2>
+
+<p class="text-white text-xl mt-6">
+Explore the beauty of Bhutan with Yatri Sathi
+</p>
+
+<a href="#packages"
+class="inline-block mt-8 bg-cyan-500 px-8 py-4 rounded-full text-white">
+
+View Packages
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CAR RENTAL -->
+
+<section class="py-24 bg-white">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+
+<div>
+
+<h2 class="text-5xl font-bold mb-6">
+Luxury Car Rental
+</h2>
+
+<p class="text-gray-600 leading-8">
+
+Premium SUVs, Sedans and Luxury Cars available for airport transfers, sightseeing and custom tours across Bhutan, Sikkim and Meghalaya.
+
+</p>
+
+<a href="#contact"
+class="inline-block mt-8 bg-cyan-500 text-white px-8 py-4 rounded-full">
+
+Book Vehicle
+
+</a>
+
+</div>
+
+<div>
+
+<img
+src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
+class="rounded-3xl shadow-2xl">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- TRAVEL GALLERY -->
+
+<section id="gallery" class="py-24 bg-slate-50">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-16">
+
+<span class="text-cyan-500 uppercase tracking-widest font-semibold">
+Travel Gallery
+</span>
+
+<h2 class="text-5xl font-bold mt-4">
+Explore Beautiful Destinations
+</h2>
+
+<p class="text-gray-500 mt-4">
+Discover Bhutan, Sikkim and Meghalaya through stunning visuals.
+</p>
+
+</div>
+
+<!-- FILTERS -->
+
+<div class="flex flex-wrap justify-center gap-4 mb-12">
+
+<button class="filter-btn bg-cyan-500 text-white px-6 py-3 rounded-full"
+data-filter="*">
+All
+</button>
+
+<button class="filter-btn bg-white shadow px-6 py-3 rounded-full"
+data-filter=".bhutan">
+Bhutan
+</button>
+
+<button class="filter-btn bg-white shadow px-6 py-3 rounded-full"
+data-filter=".sikkim">
+Sikkim
+</button>
+
+<button class="filter-btn bg-white shadow px-6 py-3 rounded-full"
+data-filter=".meghalaya">
+Meghalaya
+</button>
+
+</div>
+
+<!-- GALLERY -->
+
+<div class="destination-grid flex flex-wrap -mx-4">
+
+<!-- ITEM -->
+
+<div class="destination-item bhutan w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+
+<div class="overflow-hidden rounded-3xl shadow-xl group">
+
+<img
+src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+class="w-full h-80 object-cover transition duration-500 group-hover:scale-110">
+
+</div>
+
+</div>
+
+<div class="destination-item sikkim w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+
+<div class="overflow-hidden rounded-3xl shadow-xl group">
+
+<img
+src="https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+class="w-full h-80 object-cover transition duration-500 group-hover:scale-110">
+
+</div>
+
+</div>
+
+<div class="destination-item meghalaya w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+
+<div class="overflow-hidden rounded-3xl shadow-xl group">
+
+<img
+src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+class="w-full h-80 object-cover transition duration-500 group-hover:scale-110">
+
+</div>
+
+</div>
+
+<div class="destination-item bhutan w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+
+<div class="overflow-hidden rounded-3xl shadow-xl group">
+
+<img
+src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+class="w-full h-80 object-cover transition duration-500 group-hover:scale-110">
+
+</div>
+
+</div>
+
+<div class="destination-item sikkim w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+
+<div class="overflow-hidden rounded-3xl shadow-xl group">
+
+<img
+src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e"
+class="w-full h-80 object-cover transition duration-500 group-hover:scale-110">
+
+</div>
+
+</div>
+
+<div class="destination-item meghalaya w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+
+<div class="overflow-hidden rounded-3xl shadow-xl group">
+
+<img
+src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+class="w-full h-80 object-cover transition duration-500 group-hover:scale-110">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- FOOTER -->
+
+<footer class="bg-slate-900 text-white">
+
+<div class="max-w-7xl mx-auto px-6 py-20">
+
+<div class="grid md:grid-cols-4 gap-10">
+
+<!-- Company -->
+
+<div>
+
+<h3 class="text-3xl font-bold text-cyan-400">
+Yatri Sathi
+</h3>
+
+<p class="mt-4 text-slate-300 leading-7">
+
+Your trusted travel partner for Bhutan, Sikkim, Meghalaya and Northeast India tours.
+
+</p>
+
+</div>
+
+<!-- Quick Links -->
+
+<div>
+
+<h4 class="text-xl font-bold mb-4">
+Quick Links
+</h4>
+
+<ul class="space-y-3 text-slate-300">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+<!-- Packages -->
+
+<div>
+
+<h4 class="text-xl font-bold mb-4">
+Popular Packages
+</h4>
+
+<ul class="space-y-3 text-slate-300">
+
+<li>Bhutan Premium Tour</li>
+<li>Bhutan Honeymoon Tour</li>
+<li>Sikkim Explorer</li>
+<li>Meghalaya Adventure</li>
+
+</ul>
+
+</div>
+
+<!-- Contact -->
+
+<div>
+
+<h4 class="text-xl font-bold mb-4">
+Contact Info
+</h4>
+
+<p class="text-slate-300 mb-3">
+📞 +91 7076667573
+</p>
+
+<p class="text-slate-300 mb-3">
+📧 info@yourtripplanner.co.in
+</p>
+
+<p class="text-slate-300 mb-3">
+📧 yourtripplannerindia@gmail.com
+</p>
+
+<p class="text-slate-300 mb-3">
+📧 yourtripplannerbhutan@gmail.com
+</p>
+
+</div>
+
+</div>
+
+<hr class="my-10 border-slate-700">
+
+<div class="text-center text-slate-400">
+
+© 2026 Yatri Sathi. All Rights Reserved.
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+
+<a
+href="https://wa.me/917076667573"
+target="_blank"
+class="fixed bottom-6 left-6 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center text-white text-3xl shadow-2xl z-50 hover:scale-110 transition">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<!-- BACK TO TOP -->
+
+<button
+id="topBtn"
+class="fixed bottom-6 right-6 w-14 h-14 bg-cyan-500 text-white rounded-full shadow-xl hidden z-50">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<!-- SWIPER -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- ISOTOPE -->
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<script>
+
+/* MOBILE MENU */
+
+document.getElementById("menuBtn")
+.addEventListener("click", function(){
+
+document.getElementById("mobileMenu")
+.classList.toggle("hidden");
+
+});
+
+/* HERO SLIDER */
+
+new Swiper(".heroSwiper",{
+
+loop:true,
+
+autoplay:{
+delay:4000,
+disableOnInteraction:false
+},
+
+pagination:{
+el:".swiper-pagination",
+clickable:true
+}
+
+});
+
+/* TESTIMONIAL SLIDER */
+
+new Swiper(".testimonialSwiper",{
+
+loop:true,
+
+spaceBetween:30,
+
+autoplay:{
+delay:3000
+},
+
+breakpoints:{
+
+0:{
+slidesPerView:1
+},
+
+768:{
+slidesPerView:2
+},
+
+1024:{
+slidesPerView:3
+}
+
+}
+
+});
+
+/* ISOTOPE FILTER */
+
+window.addEventListener("load",()=>{
+
+const grid =
+document.querySelector(".destination-grid");
+
+if(grid){
+
+const iso = new Isotope(grid,{
+
+itemSelector:".destination-item",
+layoutMode:"fitRows"
+
+});
+
+document
+.querySelectorAll(".filter-btn")
+.forEach(btn=>{
+
+btn.addEventListener("click",()=>{
+
+document
+.querySelectorAll(".filter-btn")
+.forEach(b=>{
+
+b.classList.remove(
+"bg-cyan-500",
+"text-white"
+);
+
+});
+
+btn.classList.add(
+"bg-cyan-500",
+"text-white"
+);
+
+iso.arrange({
+filter:btn.dataset.filter
+});
+
+});
+
+});
+
+}
+
+});
+
+/* BACK TO TOP */
+
+const topBtn =
+document.getElementById("topBtn");
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY > 500){
+
+topBtn.classList.remove("hidden");
+
+}else{
+
+topBtn.classList.add("hidden");
+
+}
+
+});
+
+topBtn.addEventListener("click",()=>{
+
+window.scrollTo({
+
+top:0,
+behavior:"smooth"
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
